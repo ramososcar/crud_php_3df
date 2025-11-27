@@ -1,0 +1,168 @@
+/* ===========================
+   ESTILOS GENERALES
+=========================== */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f0f2f5;
+}
+
+/* ===========================
+   CONTENEDORES
+=========================== */
+.container {
+    width: 90%;
+    max-width: 900px;
+    margin: 40px auto;
+    background: #fff;
+    padding: 30px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    border-radius: 8px;
+}
+
+/* ===========================
+   TITULOS
+=========================== */
+h1, h2 {
+    text-align: center;
+    color: #333;
+}
+
+/* ===========================
+   FORMULARIOS
+=========================== */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+input, button {
+    padding: 12px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+}
+
+button {
+    background: #007bff;
+    color: white;
+    cursor: pointer;
+    border: none;
+}
+
+button:hover {
+    background: #0056b3;
+}
+
+/* Botón rojo */
+.btn-danger {
+    background: #dc3545;
+}
+
+.btn-danger:hover {
+    background: #b02a37;
+}
+
+/* Botón verde */
+.btn-success {
+    background: #28a745;
+}
+
+.btn-success:hover {
+    background: #1e7e34;
+}
+
+/* ===========================
+   TABLAS
+=========================== */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table thead {
+    background: #007bff;
+    color: white;
+}
+
+th, td {
+    padding: 12px;
+    border-bottom: 1px solid #ccc;
+}
+
+tr:hover {
+    background: #f1f1f1;
+}
+
+.actions a {
+    margin-right: 10px;
+    text-decoration: none;
+    padding: 8px 12px;
+    border-radius: 4px;
+    color: white;
+}
+
+.actions .edit {
+    background: #ffc107;
+}
+
+.actions .delete {
+    background: #dc3545;
+}
+
+/* ===========================
+   LOGIN
+=========================== */
+.login-container {
+    width: 90%;
+    max-width: 350px;
+    margin: 60px auto;
+    background: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+/* Tarjeta del formulario */
+.form-card {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+/* Labels */
+label {
+    font-weight: bold;
+    margin-top: 10px;
+    color: #444;
+}
+
+/* Inputs con animación */
+input {
+    transition: 0.2s;
+}
+
+input:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0,123,255,0.4);
+}
+
+/* Botón Volver */
+.btn-back {
+    display: inline-block;
+    text-align: center;
+    margin-top: 10px;
+    background: #6c757d;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.btn-back:hover {
+    background: #5a6268;
+}
+
+
